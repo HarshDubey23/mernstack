@@ -1,0 +1,47 @@
+/* Global Wrapper */
+.app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Optional Navbar (future use) */
+.navbar {
+    height: 60px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Page Wrapper */
+.page {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Headings */
+h2 {
+    margin: 0;
+    text-align: center;
+    color: #333;
+}
+
+/* Text */
+p {
+    margin: 5px 0;
+}
+
+/* Buttons (extra polish) */
+button:active {
+    transform: scale(0.97);
+}
+
+/* Smooth transitions everywhere */
+* {
+    transition: all 0.2s ease-in-out;
+}
